@@ -11,65 +11,100 @@
   --contrast-link: #8DE3F0;
 }
 
+/* Fonte */
 @font-face {
   font-family: 'Roboto-Regular';
   src: url('Roboto/Roboto-Regular.ttf') format('truetype');
 }
 
-body {
-  font-family: 'Roboto-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: var(--background);
-  margin: 0px;
-  padding: 20px;
+/* Reset */
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
-  box-sizing:border-box;
+body {
+  font-family: 'Roboto-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--black);
+  background-color: var(--background);
+  margin: 0;
+  padding: 20px;
 }
 
- h2, h3, h4, h5, h6 {
-  color: var(--contrast);
-  font-weight: 600;
-}
+/* ================= HEADER ================= */
 
-h1 {
-  font-size: 22px;
-  text-align:left;
-  margin-bottom: 20px;
+header {
+  background: #185E3D;
+  border-left: 20px;
+  padding: 15px 18px;
+  margin: 20px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
   color: var(--font-white);
+  font-size: 18px;
 }
 
-h2 {
-  font-size: 18px;
+header p {
+  color: var(--font-white);
+  margin: 0;
+}
+
+/* ================= CONTEÚDO PRINCIPAL ================= */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ================= SEÇÕES ================= */
+section  {
+  background: #ffffff;
+  border-left: 4px ;
+  padding: 15px 18px;
+  margin: 20px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: justify;
+  }
+
+  section h2 {
   margin-top: 25px;
+  font-size: 18px;
+  color: var(--contrast); 
+  padding-bottom: 6px;
+}
+
+
+/* Subdivisões internas */
+section article {
+  margin-top: 15px;
+}
+
+/* ================= TÍTULOS ================= */
+
+h2, h3, h4, h5, h6 {
+  font-weight: 600;
 }
 
 h3 {
   font-size: 16px;
   margin-top: 20px;
 }
+
 h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
+  font-size: 15px;
+  margin-top: 15px;
 }
 
-h5 {
-  font-size: 18px;
-  margin-top: 25px;
-}
+/* ================= TEXTO ================= */
 
-h6 {
-  font-size: 16px;
-  margin-top: 20px;
-}
 p {
   margin: 0 0 10px;
-  color: #333;
+  color: #000000;
+  text-align: justify;
 }
+
+/* ================= LISTAS ================= */
 
 ul {
   padding-left: 20px;
@@ -80,40 +115,46 @@ li {
   margin-bottom: 6px;
 }
 
+/* ================= LINKS ================= */
+
 a {
-  color:#1a64c5 ;
+  color: var(--Primary2);
   text-decoration: none;
-  }
+  font-weight: 500;
+}
 
 a:hover {
   text-decoration: underline;
 }
 
-.box {
-  background: #ffffff;
-  border-left: 4px ;
-  padding: 15px 18px;
-  margin: 20px 0;
-  border-radius: 4px;
-  box-sizing:border-box;
-  text-align: justify;
 
-}
-.boxx {
-  background: #185E3D;
-  border-left: 20px ;
-  padding: 15px 18px;
-  margin: 20px 0px;
-  border-radius: 4px;
-  box-sizing:border-box;
-  --font-white: #ffffff;
+/* ================= IMAGENS ================= */
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 
 .img-apadrinhamento {
-  width: 500px;
-  height: 708px;
+  max-width: 500px;
   display: block;
   margin: 0 auto 15px;
-
 }
 
+
+/* ================= RESPONSIVIDADE ================= */
+
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+   section {
+    padding: 18px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}
