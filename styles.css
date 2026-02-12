@@ -93,7 +93,7 @@ a:hover {
   background: #ffffff;
   border-left: 4px ;
   padding: 15px 18px;
-  margin: 20px 0;
+  margin: 20px 0px;
   border-radius: 4px;
   box-sizing:border-box;
   text-align: justify
@@ -103,7 +103,7 @@ a:hover {
   background: #185E3D;
   border-left: 20px ;
   padding: 15px 18px;
-  margin: 20px 0;
+  margin: 20px 0px;
   border-radius: 4px;
   box-sizing:border-box;
   --font-white: #ffffff;
@@ -116,3 +116,5 @@ a:hover {
   margin: 0 auto 15px;
 
 }
+.margem
+
