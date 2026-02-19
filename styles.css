@@ -108,9 +108,7 @@ a:hover {
    margin-right: 35px;
    margin-left: 35px;
  
-
-  
-  
+   
 }
 
 .img-apadrinhamento {
@@ -119,4 +117,16 @@ a:hover {
   display: block;
   margin: 0 auto 15px;
 }
+/* Estilo base (mobile) */
+.main-content {
+    padding: 10px;
+}
+
+/* Estilo para telas maiores */
+@media (min-width: 768px) {
+    .main-content {
+        padding: 20px;
+    }
+}
+
 
