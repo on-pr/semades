@@ -149,39 +149,7 @@ a:hover {
 
 }
 
-/* Tablet e acima */
-@media screen and (min-width: 768px) {
 
-  .main-box {
-    padding: 20px;
-  }
-
-  .bloco-vertical-middle {
-    display: flex;
-    align-items: center;
-  }
-
-  .bloco-space-between {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
-
-/* Desktop grande */
-@media screen and (min-width: 1200px) {
-
-  .bloco-middle-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .bloco-center {
-    display: flex;
-    justify-content: center;
-  }
-}
 
 
 
