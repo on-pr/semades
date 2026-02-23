@@ -125,7 +125,7 @@ a:hover {
   height: 708px;
   display: block;
   margin: 0 auto 15px;
-
+}
 
 /* Ajustes específicos para celular */
 @media screen and (max-width: 767px) {
@@ -183,6 +183,7 @@ a:hover {
     justify-content: center;
   }
 }
+
 
 
 
