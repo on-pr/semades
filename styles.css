@@ -98,7 +98,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.boxx {
+.box {
   font-size: 16px;
   text-align: justify;
   background: #fbf9f9;
@@ -175,6 +175,7 @@ a:hover {
     justify-content: center;
   }
 }
+
 
 
 
