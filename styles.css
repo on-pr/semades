@@ -22,9 +22,9 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: var(--background);
-  margin: 40px;
-  padding: 20px;
-  box-sizing: border-box; 
+  margin: 0;              /* REMOVE A MARGEM */
+  padding: 0;             /* REMOVE O PADDING */
+}
  
 }
 
@@ -98,7 +98,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.box {
+.boxx {
   font-size: 16px;
   text-align: justify;
   background: #fbf9f9;
@@ -107,13 +107,19 @@ a:hover {
   margin-top: 0px;
    margin-right: 40px;
    margin-left: 40px;
- 
+ .box {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;        /* centraliza no desktop */
+  padding: 15px;         /* espaço interno */
+  background: #fbf9f9;
+}
    
 }
 
 .img-apadrinhamento {
-  width: 500px;
-  height: 708px;
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto 15px;
 }
@@ -175,6 +181,7 @@ a:hover {
     justify-content: center;
   }
 }
+
 
 
 
