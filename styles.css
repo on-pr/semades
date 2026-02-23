@@ -121,11 +121,10 @@ a:hover {
    margin-left: 40px;
 
 .img-apadrinhamento {
-  max-width: 100%;
-  height: auto;
+  width: 500px;
+  height: 708px;
   display: block;
   margin: 0 auto 15px;
-}
 
 
 /* Ajustes específicos para celular */
@@ -184,6 +183,7 @@ a:hover {
     justify-content: center;
   }
 }
+
 
 
 
