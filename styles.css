@@ -128,7 +128,44 @@ a:hover {
         padding: 20px;
     }
 }
+@media screen and (max-width: 768px) {
+  .banners .swiper-slide img {
+    /* width: 100%; */
+  }
+@media screen and (max-width: 768px) {
+  #sub-rodape p {
+    text-align: center;
+    
+    @media screen and (max-width: 768px) {
+  #rodape .bloco-vertical-middle {
+    display: block;
+  }
+@media screen and (min-width: 768px) {
+  .bloco-vertical-middle {
+    display: flex;
+    align-items: center;
+  }
 
+  .bloco-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .bloco-middle-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bloco-center {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
 
