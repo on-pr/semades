@@ -46,7 +46,7 @@ header h1
   padding: 10px 15px 10px 15px;
   color: var(--font-white);
   margin-bottom: 0px;
-  margin-top: 300px;
+  margin-top: 30px;
   margin-right: 40px;
   margin-left: 45px;
   
@@ -175,6 +175,7 @@ a:hover {
     justify-content: center;
   }
 }
+
 
 
 
