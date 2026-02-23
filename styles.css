@@ -110,6 +110,15 @@ a:hover {
   width: 100%;
   margin: 0 auto;        /* centraliza no desktop */  
 }
+.boxx {
+  font-size: 16px;
+  text-align: justify;
+  background: #fbf9f9;
+  padding: 10px 15px 10px 15px;
+  margin: 35px;
+  margin-top: 0px;
+   margin-right: 40px;
+   margin-left: 40px;
 
 .img-apadrinhamento {
   max-width: 100%;
@@ -175,6 +184,7 @@ a:hover {
     justify-content: center;
   }
 }
+
 
 
 
