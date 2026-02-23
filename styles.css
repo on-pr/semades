@@ -102,19 +102,13 @@ a:hover {
   font-size: 16px;
   text-align: justify;
   background: #fbf9f9;
-  padding: 10px 15px 10px 15px;
-  margin: 35px;
+  padding: 15px;         /* espaço interno */
   margin-top: 0px;
    margin-right: 40px;
    margin-left: 40px;
- .box {
-  width: 100%;
   max-width: 1200px;
-  margin: 0 auto;        /* centraliza no desktop */
-  padding: 15px;         /* espaço interno */
-  background: #fbf9f9;
-}
-   
+  width: 100%;
+  margin: 0 auto;        /* centraliza no desktop */  
 }
 
 .img-apadrinhamento {
@@ -181,6 +175,7 @@ a:hover {
     justify-content: center;
   }
 }
+
 
 
 
