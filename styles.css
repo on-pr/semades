@@ -117,30 +117,41 @@ a:hover {
   display: block;
   margin: 0 auto 15px;
 }
-/* Estilo base (mobile) */
+/* MOBILE FIRST */
 .main-box {
-    padding: 10px;
+  padding: 10px;
 }
 
-/* Estilo para telas maiores */
-@media (min-width: 768px) {
-    .main-box {
-        padding: 20px;
-    }
-}
-@media screen and (max-width: 768px) {
+/* Ajustes específicos para celular */
+@media screen and (max-width: 767px) {
+
   .banners .swiper-slide img {
-    /* width: 100%; */
+    width: 100%;
+    height: auto;
+    display: block;
   }
-@media screen and (max-width: 768px) {
-  #sub-rodape p {
-    text-align: center;
-    
-    @media screen and (max-width: 768px) {
+
   #rodape .bloco-vertical-middle {
     display: block;
   }
+
+  #sub-rodape p {
+    text-align: center;
+  }
+
+  .bloco-space-between {
+    flex-direction: column;
+  }
+
+}
+
+/* Tablet e acima */
 @media screen and (min-width: 768px) {
+
+  .main-box {
+    padding: 20px;
+  }
+
   .bloco-vertical-middle {
     display: flex;
     align-items: center;
@@ -153,6 +164,7 @@ a:hover {
   }
 }
 
+/* Desktop grande */
 @media screen and (min-width: 1200px) {
 
   .bloco-middle-center {
@@ -166,7 +178,6 @@ a:hover {
     justify-content: center;
   }
 }
-
 
 
 
