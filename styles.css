@@ -31,7 +31,7 @@ body {
   box-sizing:border-box;
 }
 
-  h3, h4, h5, h6 {
+   h4, h5, h6 {
   color: var(--contrast);
   font-weight: 600px;
 }
@@ -148,6 +148,7 @@ a:hover {
   }
 
 }
+
 
 
 
