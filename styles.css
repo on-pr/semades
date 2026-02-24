@@ -118,8 +118,8 @@ a:hover {
   margin-top: 0px;
    margin-right: 40px;
    margin-left: 40px;
-
-.box apadrinhamento {
+}
+.boxapadrinhamento {
   width: 500px;
   height: 600px;
   display: block;
@@ -148,6 +148,7 @@ a:hover {
   }
 
 }
+
 
 
 
