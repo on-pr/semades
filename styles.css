@@ -119,9 +119,15 @@ a:hover {
    margin-right: 40px;
    margin-left: 40px;
 }
-.boxapadrinhamento {
+boxapadrinhamento {
   width: 500px;
   height: 600px;
+  display: block;
+  margin: 0 auto 15px;
+}
+.boxapadrinhamento img {
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto 15px;
 }
@@ -148,6 +154,7 @@ a:hover {
   }
 
 }
+
 
 
 
